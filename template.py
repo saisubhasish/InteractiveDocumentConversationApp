@@ -3,10 +3,8 @@ import yaml
 
 def create_directory_structure():
     directories = [
-        "app",
-        "tests",
         "config",
-        "src"
+        "utils",
     ]
     
     for directory in directories:
@@ -16,22 +14,19 @@ def create_directory_structure():
 
 def create_files():
     files = {
-        "app/__init__.py": "",
-        "app/main.py": "# main_py_content",
-        "app/document_processor.py": "# document_processor_py_content",
-        "app/vector_store.py": "# vector_store_py_content",
-        "app/llm_interface.py": "# llm_interface_py_content",
-        "app/chat_interface.py": "# chat_interface_py_content",
-        "tests/__init__.py": "",
-        "tests/test_document_processor.py": "# test_document_processor_py_content",
-        "tests/test_vector_store.py": "# test_vector_store_py_content",
-        "tests/test_llm_interface.py": "# test_llm_interface_py_content",
-        "tests/test_chat_interface.py": "# test_chat_interface_py_content",
+        "utils/__init__.py": "",
+        "utils/document_processor.py": "# document_processor_py_content",
+        "utils/vector_store.py": "# vector_store_py_content",
+        "utils/llm_interface.py": "# llm_interface_py_content",
+        "utils/chat_interface.py": "# chat_interface_py_content",
+        "utils/logger.py": "# logger_py_content",
+        "utils/exception.py": "# exception_py_content",
         "config/config.yaml": "# config_yaml_content",
+        "app.py": "# app_py_content",
+        "setup.py": "# setup_py_content",
         "requirements.txt": "# requirements_txt_content",
         "README.md": "# readme_md_content",
         ".gitignore": "# gitignore_content",
-        "src/logger.py": "# logger_py_content",
         ".env": "# .env_content"
     }
     
