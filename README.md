@@ -16,7 +16,7 @@ This application allows users to upload PDF or Word documents and chat with the 
 
 1. Clone this repository
    ```
-   
+   https://github.com/saisubhasish/InteractiveDocumentConversationApp.git
    ```
 2. Install the required packages:
    ```
