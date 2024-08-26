@@ -1,6 +1,9 @@
-# readme_md_content# Interactive Document Chat
+# Interactive Document Chat
 
 This application allows users to upload PDF or Word documents and chat with the content using advanced language models.
+
+![Screenshot 2024-08-26 163455](https://github.com/user-attachments/assets/7a1b3542-3f3a-430f-aeec-407e45351d92)
+
 
 ## Features
 
