@@ -16,13 +16,19 @@ This application allows users to upload PDF or Word documents and chat with the 
 
 1. Clone this repository
    ```
-   https://github.com/saisubhasish/InteractiveDocumentConversationApp.git
+   git clone https://github.com/saisubhasish/InteractiveDocumentConversationApp.git
    ```
-2. Install the required packages:
+
+2. Create Virtual Environment
+   ```
+   conda create -p venv python=3.10 -y
+   conda activate venv/
+   ```
+4. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
-3. Set up your environment variables:
+5. Set up your environment variables:
    - Create a `.env` file in the project root
    - Add your Groq API key: `GROQ_API_KEY=your_api_key_here`
 
