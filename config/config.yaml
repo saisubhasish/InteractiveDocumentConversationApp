@@ -1,0 +1,20 @@
+# Application Settings
+app:
+  name: Interactive Document Chat
+  version: 1.0.0
+
+# LLM Settings
+llm:
+  model: llama-2
+  provider: groq
+
+# Vector Store Settings
+vector_store:
+  type: faiss
+  chunk_size: 1000
+  chunk_overlap: 200
+
+# Streamlit Settings
+streamlit:
+  page_title: Interactive Document Chat
+  page_icon: ":books:"

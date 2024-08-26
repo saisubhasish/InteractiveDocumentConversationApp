@@ -1,0 +1,15 @@
+streamlit==1.32.0
+altair==4.2.2
+langchain
+faiss-cpu
+PyPDF2
+python-docx
+transformers==4.44.2
+torch==2.1.2
+python-dotenv
+pydantic==2.6.1
+sentence-transformers
+sentence-transformers
+langchain-community
+langchain-groq
+docx2txt==0.8
